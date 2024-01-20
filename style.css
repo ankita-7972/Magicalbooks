@@ -1,0 +1,960 @@
+*{
+
+}
+.Home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+.whitebackg{
+    /* background-color: aqua; */
+    height: 80rem;
+    width: 60rem;
+}
+.colorbackg{
+    /* background-color: burlywood; */
+    height: 100%;
+    width: 35rem;
+
+}
+.colorbackg h2{
+    font-size: 19px;
+    font-family: sans-serif;
+    padding: 0px 50px;
+}
+.colorbackg p{
+    font-size: 16px;
+    width: 23dvw;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    padding: 0px 50px;
+}
+
+
+.colorbackg img{
+    margin: auto;
+    display: flex;
+    height: 311px;
+    width: 350px;
+    border-radius: 5px;
+}
+.booktext h1{
+    margin: auto;
+    display: flex;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    padding: 30px 40px;
+}
+
+.big-booktext h1{
+    margin: auto;
+    display: flex;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding: 30px 40px;
+}
+.bookimg{
+    margin-top: 13rem !important;
+}
+
+.bookimgs img{
+    margin-top: 1rem;
+}
+
+.stext h2{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 2rem;
+    letter-spacing: .5px;
+    color: rgb(33, 33, 33);
+}
+.stext p{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+}
+
+.package-text span{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+    /* padding: 2rem; */
+
+}
+
+.icontext p{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+    margin: 1px;
+}
+.icontext{
+    padding: 1rem 0rem;
+}
+
+.package-text1 span {
+    padding-bottom: 1rem;
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+}
+
+.package-text1 p{
+    margin-top: 1rem;
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110); 
+}
+
+.clicktext span{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(115, 110, 110);
+    margin-bottom: 2rem; 
+}
+.ourtext{
+    margin-top: 2rem !important;
+}
+.ourtext span{
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(37, 36, 36);   
+}
+.ourtext p{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+}
+.About h1{
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(37, 36, 36); 
+}
+
+.About p{
+   
+    margin-top: 1rem;
+    font-size: 16px;
+    width: 23dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110); 
+}
+.productimg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    height: 265px;
+    width: 275px;
+    border-radius: 18px;
+    
+}
+.products h2{
+    display: flex;
+    justify-content: start;
+    padding: 2rem;
+    margin-left: 3.5rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.productimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    gap: 1rem !important;
+}
+
+.productimg span{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-top: 1rem !important;
+    width: 20dvw;
+}
+.productimg p{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.productimg strike{
+    margin-right: 1rem;
+}
+.line hr{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+.logoimg img{
+    height: 135px;
+    width: 200px;
+    margin-left: 0rem !important;
+    
+}
+
+.productimg span:hover{
+    text-decoration: underline;
+}
+.productimg {
+    position: relative;
+    max-width: 100%;
+}
+.imgClass {
+    position: relative;
+    overflow: hidden;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff; /* White text color, you can adjust this */
+    height: 2rem;
+    width: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #a0160c !important;
+    color: #fff;
+    padding: 3px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-size: 15px;
+    margin: 4px 9px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+@media only screen and (min-Width:250px) and (max-Width:349px) {  
+    
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto
+    }
+    .colorbackg p{
+        font-size: 16px;
+        width: 69dvw;
+        padding: 0px;
+        margin: auto;
+    }
+    .colorbackg img{
+        height: 145px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 1.3rem;
+        padding: 30px 40px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 2rem;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 16px;
+         width: 66dvw;
+    }
+    
+    .package-text span{
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 98dvw;
+        padding: 0rem;
+        
+    }
+    .icontext p{
+        font-size: 16px;
+        width: 71dvw;
+        margin: 1px;
+    }
+    .icontext{
+        padding: 1rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 98dvw;
+        padding: 0rem;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 81dvw;
+    }
+    
+    .clicktext span{
+        /* padding: 7px 20px; */
+        font-size: 13px;
+        margin-bottom: 2rem; 
+        display: flex;
+        margin: auto;
+        text-align: center;
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        /* padding: 10px 30px; */
+        padding: 0px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 17px;  
+    }
+    .ourtext p{
+        font-size: 16px;
+        width: 70dvw;
+    }
+    .About h1{
+        padding: 10px 30px;
+        font-size: 28px;
+    }
+    
+    .About p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 71dvw;
+    }
+    .productimg img{
+        height: 78px;
+        width: auto;
+    }
+    .products h2{
+        padding: 0rem 2rem;
+        font-size: 1.3rem;
+    }
+    .productimages{
+        padding: 0rem 5rem;
+        flex-direction: column;
+    }
+    
+    .productimg span{
+        font-size: 11px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+        width: 36dvw;   
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        display: flex;
+        justify-content: center;
+        margin: auto;   
+    }
+    
+    .logoimg img{
+        height: 111px;
+        width: 175px;
+        margin-left: 2rem !important;
+        
+    }
+
+}
+
+@media only screen and (min-Width:349px) and (max-Width:499px) { 
+
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto
+    }
+    .colorbackg p{
+        font-size: 16px;
+        width: 69dvw;
+        padding: 0px;
+        margin: auto;
+    }
+    .colorbackg img{
+        height: 204px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 1.3rem;
+        padding: 30px 40px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 2rem;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 16px;
+         width: 66dvw;
+    }
+    
+    .package-text span{
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 98dvw;
+        padding: 0rem;
+        
+    }
+    .icontext p{
+        font-size: 16px;
+        width: 71dvw;
+        margin: 1px;
+    }
+    .icontext{
+        padding: 1rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 98dvw;
+        padding: 0rem;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 81dvw;
+    }
+    
+    .clicktext span{
+        /* padding: 7px 20px; */
+        font-size: 13px;
+        margin-bottom: 2rem; 
+        display: flex;
+        margin: auto;
+        text-align: center;
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        /* padding: 10px 30px; */
+        padding: 0px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 17px;  
+    }
+    .ourtext p{
+        font-size: 16px;
+        width: 70dvw;
+    }
+    .About h1{
+        padding: 10px 30px;
+        font-size: 28px;
+    }
+    
+    .About p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 71dvw;
+    }
+    .productimg img{
+        height: 158px;
+        width: auto;
+    }
+    .products h2{
+        padding: 0rem 2rem;
+        font-size: 1.5rem;
+    }
+    .productimages{
+        padding: 0rem 5rem;
+        flex-direction: column;
+    }
+    
+    .productimg span{
+        font-size: 12px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+        width: 48dvw;
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        display: flex;
+        justify-content: center;
+        margin: auto;   
+    }
+    
+    .logoimg img{
+        height: 111px;
+        width: 175px;
+        margin-left: 2rem !important;
+        
+    }
+}
+
+@media only screen and (min-Width:499px) and (max-Width:768px) { 
+
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto
+    }
+    .colorbackg p{
+        font-size: 16px;
+        width: 71dvw;
+        padding: 0px;
+        margin: auto;
+    }
+    .colorbackg img{
+        height: 275px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding: 0px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 1.7rem;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 16px;
+         width: 41dvw;
+    }
+    
+    .package-text span{
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 43dvw;
+        padding: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        
+    }
+    .icontext p{
+        padding: 0px;
+        font-size: 16px;
+        width: 43dvw !important;
+        margin: 0px;
+    }
+    .icontext{
+        padding: 0rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 43dvw;
+        padding: 0rem;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 31dvw;
+    }
+    
+    .clicktext span{
+        /* padding: 7px 20px; */
+        font-size: 16px;
+        margin-bottom: 2rem; 
+        display: flex;
+        margin: auto;
+        text-align: center;
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        /* padding: 10px 30px; */
+        padding: 0px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 17px;  
+    }
+    .ourtext p{
+        font-size: 16px;
+        width: 43dvw;
+    }
+    .About h1{
+        padding: 0px;
+        font-size: 28px;
+    }
+    
+    .About p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 40dvw;
+    }
+    .productimg img{
+        height: 226px;
+        width: auto;
+    }
+    .products h2{
+        padding: 0rem ;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem !important;
+        align-items: center;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+    .productimages{
+        padding: 0rem 5rem;
+        flex-direction: column;
+    }
+    
+    .productimg span{
+        font-size: 14px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+        width: 33dvw;
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 14px;
+        font-family: sans-serif;
+        margin-bottom: 1rem;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        display: flex;
+        justify-content: center;
+        margin: auto;   
+    }
+    
+    .logoimg img{
+        height: 111px;
+        width: 175px;
+        margin-left: 2rem !important;
+        
+    }
+}
+
+
+@media only screen and (min-Width:768px) and (max-Width:1023px) { 
+    .colorbackg{
+        /* background-color: burlywood; */
+        height: 100%;
+        width: 35rem;
+    
+    }
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 1rem !important;
+        font-size: 28px;
+    }
+    .colorbackg p{
+        font-size: 18px;
+        width: 33dvw;
+        padding: 0px;
+        margin: auto;
+    }
+    .colorbackg img{
+        height: 307px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        padding: 0px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 4rem;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 18px;
+        width: 20dvw;
+    }
+    
+    .package-text span{
+        font-size: 18px;
+        display: flex;
+        margin: auto;
+        width: 33dvw;
+        padding: 0rem;
+        
+    }
+    .icontext p{
+        font-size: 18px;
+        width: 31dvw !important;
+        margin: 0px;
+    }
+    .icontext{
+        padding: 1rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 18px;
+        display: flex;
+        margin: auto;
+        width: 33dvw;
+        padding: 0rem;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 29dvw;
+       
+    }
+    .package-text1{
+        margin-bottom: 2rem;
+    }
+    
+    .clicktext span{
+        padding: 0px;
+        font-size: 17px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: start;
+        margin: auto;
+        margin-top: 1rem !important;
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        padding: 0px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 18px;  
+    }
+    .ourtext p{
+        font-size: 18px;
+        width: 32dvw;
+    }
+    .About h1{
+        padding: 10px 30px;
+        font-size: 28px;
+    }
+    
+    .About p{
+        margin-top: 1rem;
+        font-size: 18px;
+        width: 30dvw;
+    }
+    .productimg img{
+        height: 173px;
+        width: auto;
+    }
+    .products h2{
+        padding: 0rem ;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem !important;
+        align-items: center;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+    .productimages{
+        gap: 1rem;
+        padding: 0rem 5rem;
+        /* flex-direction: column; */
+    }
+    
+    .productimg span{
+        font-size: 12px;
+        margin-top: 1rem !important;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+        margin-bottom: 1rem;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        display: flex;
+        justify-content: center;
+        margin: auto;   
+    }
+    /* .products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    
+    .logoimg img{
+        height: 111px;
+        width: 175px;
+        margin-left: 2rem !important;
+        
+    }
+}
+
+
+@keyframes skew-y-shakeing{
+    0% { transform: skewY(-15deg); }
+    5% { transform: skewY(15deg); }
+    10% { transform: skewY(-15deg); }
+    15% { transform: skewY(15deg); }
+    20% { transform: skewY(0deg); }
+    100% { transform: skewY(0deg); }
+   }
+
+   .shake-button{
+    animation: skew-y-shakeing 2s infinite;
+   }
